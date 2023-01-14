@@ -6,6 +6,7 @@ public class Doctor extends Users{
  
  private int d_id=301;
  private String d_name="Chisiya";
+ Scanner sc = new Scanner(System.in);
  
  public int getD_id() {
   return d_id;
@@ -25,8 +26,8 @@ public class Doctor extends Users{
 
  public void Choice(){
   System.out.println("Enter your choice:1)CheckPatient");
-  Scanner sc = new Scanner(System.in);
-        int choice = sc.nextInt();
+  //Scanner sc = new Scanner(System.in);
+  int choice = sc.nextInt();
         
         
    switch(choice){        
@@ -35,7 +36,7 @@ public class Doctor extends Users{
          case 2: main(null);
      
    }
-   sc.close();
+   //sc.close();
  }
  
  public void CheckPatient(){

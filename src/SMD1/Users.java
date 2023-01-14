@@ -4,11 +4,10 @@ package SMD1;
 import java.util.Scanner;
 
 public class Users {
- 
+  static Scanner sc = new Scanner(System.in);
  public static void main(String[] args) {
-  System.out.println("Enter your choice:1)Receptionist 2)Paient 3)Doctor");
-  Scanner sc = new Scanner(System.in);
-        int choice = sc.nextInt();
+  System.out.print("Eenter your choice:1)Receptionist 2)Patient 3)Doctor \t:");
+  int choice = sc.nextInt();
         
     do{
    switch(choice){        
@@ -23,7 +22,7 @@ public class Users {
        break;        
    }
         }while(choice!=4);
-  sc.close();
+  //sc.close();
  }
  
 }

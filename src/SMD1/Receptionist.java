@@ -4,9 +4,9 @@ package SMD1;
 import java.util.Scanner;
 
 public class Receptionist extends Users {
-
  private int r_id;
  private String r_name;
+ Scanner sc = new Scanner(System.in);
 
  public int getR_id() {
   return r_id;
@@ -26,8 +26,7 @@ public class Receptionist extends Users {
  
  public void Choice(){
   System.out.println("Enter your choice:1)GiveAppoint 2)GenerateBill");
-  Scanner sc = new Scanner(System.in);
-        int choice = sc.nextInt();
+  int choice = sc.nextInt();
         
         
    switch(choice){        
@@ -37,7 +36,7 @@ public class Receptionist extends Users {
        break;
          case 3:  main(null);
    }
-  sc.close();   
+  //sc.close();  
  }
 
  public void GenerateBill(){

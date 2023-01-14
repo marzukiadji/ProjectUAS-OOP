@@ -6,11 +6,12 @@ public class Patient extends Users{
 
  private int p_id=101;
  private String p_name="Kuina Hikari";
+ Scanner sc = new Scanner(System.in);
  
  public void Choice(){
   System.out.println("Enter your choice:1)PayBill");
-  Scanner sc = new Scanner(System.in);
-        int choice = sc.nextInt();
+  //Scanner sc = new Scanner(System.in);
+  int choice = sc.nextInt();
         
         
    switch(choice){        
@@ -19,7 +20,7 @@ public class Patient extends Users{
          case 2: main(null);
      
    }
-   sc.close();
+   //sc.close();
 
  }
  
