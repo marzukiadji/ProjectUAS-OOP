@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Doctor extends Users{
  
  private int d_id=301;
- private String d_name="Raju Rastogi";
+ private String d_name="Chisiya";
  
  public int getD_id() {
   return d_id;
