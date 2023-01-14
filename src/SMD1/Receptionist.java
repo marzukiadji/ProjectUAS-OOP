@@ -25,14 +25,15 @@ public class Receptionist extends Users {
  }
  
  public void Choice(){
-  System.out.println("Enter your choice:1)GiveAppoint 2)GenerateBill");
+  System.out.println();
+  System.out.print("Enter your choice: 1)GiveAppoint 2)GenerateBill \t: ");
   int choice = sc.nextInt();
         
         
    switch(choice){        
-         case 1: GiveAppoint();
+         case 1: GiveAppoint(); System.out.println();
           break;
-         case 2: GenerateBill();
+         case 2: GenerateBill(); System.out.println();
        break;
          case 3:  main(null);
    }
@@ -47,6 +48,7 @@ public class Receptionist extends Users {
   int p_id = B.getP_id();
   int b_amt = B.getB_amt();
   System.out.println("BillNO: "+b_no +"\nPatientID: "+p_id+"\nPatientName: "+p_name+"\nBillAmount: "+b_amt);
+  System.out.println();
   
  }
  
@@ -60,6 +62,7 @@ public class Receptionist extends Users {
   String d_name = D.getD_name();
   System.out.println("\nPatientID: "+p_id+"\nPatientName: "+p_name+"\nAppointment with Doctor \nDoctorID: "+d_id+
     "\nDoctorName : "+d_name);
+  System.out.println();
   
  }
  

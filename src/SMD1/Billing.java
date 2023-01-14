@@ -7,6 +7,7 @@ public class Billing{
  Patient P = new Patient();
  String p_name =P.getP_name();
  int p_id = P.getP_id();
+ 
  public String getP_name() {
   return p_name;
  }

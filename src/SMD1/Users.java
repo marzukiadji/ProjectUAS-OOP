@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Users {
   static Scanner sc = new Scanner(System.in);
  public static void main(String[] args) {
-  System.out.print("Eenter your choice:1)Receptionist 2)Patient 3)Doctor \t:");
+  System.out.print("Eenter your choice: 1)Receptionist 2)Patient 3)Doctor \t: ");
   int choice = sc.nextInt();
         
     do{

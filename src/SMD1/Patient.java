@@ -9,14 +9,14 @@ public class Patient extends Users{
  Scanner sc = new Scanner(System.in);
  
  public void Choice(){
-  System.out.println("Enter your choice:1)PayBill : ");
+  System.out.print("Enter your choice: 1)PayBill \t: ");
   //Scanner sc = new Scanner(System.in);
   int choice = sc.nextInt();
         
    switch(choice){        
-         case 1: PayBill();
+         case 1: PayBill(); System.out.println();
             break;
-         case 2: main(null);
+         case 2: main(null); System.out.println();
      
    }
    //sc.close();
@@ -40,7 +40,7 @@ public class Patient extends Users{
  }
  
  public void PayBill(){
-  System.out.println("Thanks For Paying Bill\n");
+  System.out.println("Thanks For Paying Bill");
  }
 
  

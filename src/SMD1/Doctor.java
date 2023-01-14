@@ -25,15 +25,15 @@ public class Doctor extends Users{
  }
 
  public void Choice(){
-  System.out.println("Enter your choice:1)CheckPatient : ");
+  System.out.print("Enter your choice: 1)CheckPatient \t: ");
   //Scanner sc = new Scanner(System.in);
   int choice = sc.nextInt();
         
         
    switch(choice){        
-         case 1: CheckPatient();
+         case 1: CheckPatient(); System.out.println();
           break;
-         case 2: main(null);
+         case 2: main(null); System.out.println();
      
    }
    //sc.close();
