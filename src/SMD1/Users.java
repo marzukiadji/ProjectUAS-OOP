@@ -1,12 +1,20 @@
 package SMD1;
 
 //import java.io.*;
+import javax.swing.*;
 import java.util.Scanner;
 
-public class Users {
+public class Users extends JFrame {
   static Scanner sc = new Scanner(System.in);
+
  public static void main(String[] args) {
-  System.out.print("Eenter your choice: 1)Receptionist 2)Patient 3)Doctor \t: ");
+  Gui myframeGui;
+  myframeGui = new Gui();
+  myframeGui.setVisible(true);
+  JOptionPane.showMessageDialog(myframeGui, "Welcome to Primaya Hospital");
+  JOptionPane.showMessageDialog(myframeGui, "Good Morning");
+
+  System.out.print("Enter your choice: 1)Receptionist 2)Patient 3)Doctor \t: ");
   int choice = sc.nextInt();
         
     do{
@@ -22,7 +30,6 @@ public class Users {
            break;        
    }
         }while(choice!=4);
-  //sc.close();
  }
  
 }
