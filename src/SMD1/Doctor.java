@@ -25,7 +25,7 @@ public class Doctor extends Users{
  }
 
  public void Choice(){
-  System.out.println("Enter your choice:1)CheckPatient");
+  System.out.println("Enter your choice:1)CheckPatient : ");
   //Scanner sc = new Scanner(System.in);
   int choice = sc.nextInt();
         

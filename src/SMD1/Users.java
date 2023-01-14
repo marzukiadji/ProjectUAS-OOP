@@ -16,10 +16,10 @@ public class Users {
           break;
          case 2: Patient P = new Patient();
            P.Choice();
-       break;
+           break;
          case 3: Doctor D = new Doctor();
            D.Choice();
-       break;        
+           break;        
    }
         }while(choice!=4);
   //sc.close();

@@ -46,7 +46,7 @@ public class Receptionist extends Users {
   String p_name =B.getP_name();
   int p_id = B.getP_id();
   int b_amt = B.getB_amt();
-  System.out.println("BillNO: "+b_no +"\n PatientID: "+p_id+"\nPatientName: "+p_name+"\nBillAmount: "+b_amt);
+  System.out.println("BillNO: "+b_no +"\nPatientID: "+p_id+"\nPatientName: "+p_name+"\nBillAmount: "+b_amt);
   
  }
  
@@ -58,8 +58,8 @@ public class Receptionist extends Users {
   Doctor D = new Doctor();
   int d_id = D.getD_id();
   String d_name = D.getD_name();
-  System.out.println("\n PatientID: "+p_id+"\nPatientName: "+p_name+"\nAppointment with Doctor \nDoctorID: "+d_id+
-    "\nDoctorName"+d_name);
+  System.out.println("\nPatientID: "+p_id+"\nPatientName: "+p_name+"\nAppointment with Doctor \nDoctorID: "+d_id+
+    "\nDoctorName : "+d_name);
   
  }
  
