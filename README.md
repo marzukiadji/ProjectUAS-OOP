@@ -1,6 +1,8 @@
 ![image](ClassDiagram.png)
 ## Code are stored [here](https://github.com/marzukiadji/ProjectUAS-OOP/tree/main/src/main/java/com/mycompany/hospital/SMD1).  
 ## Link Documentation Youtube [here](https://youtu.be/c7eXuZ4Pdt0).  
+## Preview output Gui
+![image](preview.png)  
 ## Getting Started
 
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
