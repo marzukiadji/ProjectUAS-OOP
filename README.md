@@ -1,5 +1,5 @@
 ![image](ClassDiagram.png)
-## Code are stored [here](https://github.com/marzukiadji/ProjectUAS-OOP/tree/main/src/SMD1).  
+## Code are stored [here](https://github.com/marzukiadji/ProjectUAS-OOP/tree/main/src/main/java/com/mycompany/hospital/SMD1).  
 ## Getting Started
 
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
